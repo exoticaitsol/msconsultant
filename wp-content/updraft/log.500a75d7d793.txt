@@ -1,0 +1,226 @@
+0000.000 (0) Opened log file at time: Fri, 26 Apr 2024 11:54:31 +0000 on https://msconsultant.exoticaitsolutions.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.4.4 PHP: 8.1.27 (litespeed, Linux in-mum-web678.main-hosting.eu 4.18.0-513.9.1.lve.el7h.x86_64 #1 SMP Mon Dec 4 13:57:13 UTC 2023 x86_64) MySQL: 10.11.7-MariaDB-cll-lve (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 1536M (used: 8.2M | 10M) multisite: N openssl: OpenSSL 1.1.1w  11 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 2461287.7 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.004 (0) Semaphore (fd, wp_options) being initialised
+0000.006 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.007 (0) Set semaphore last lock (fd) time to 2024-04-26 11:54:31
+0000.007 (0) Semaphore lock (fd) complete
+0000.009 (0) Backup run: resumption=0, nonce=500a75d7d793, file_nonce=500a75d7d793 begun at=1714132471 (0s ago), job type=backup
+0000.010 (0) Scheduling a resumption (1) after 300 seconds (1714132771) in case this run gets aborted
+0000.020 (0) Checking if we have a zip executable available
+0000.020 (0) Testing: /usr/bin/zip
+0000.027 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.028 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.029 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.029 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.030 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.036 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.037 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.049 (0) Working binary zip found: /usr/bin/zip
+0000.050 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.051 (0) Creation of backups of directories: beginning
+0000.053 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.113 (0) Total entities for the zip file: 309 directories, 1986 files (0 skipped as non-modified), 48.4 MB
+0000.125 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.135 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.150 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.159 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.168 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.178 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.183 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.2 MB, 1986 files batched, 657 (657) added so far); re-opening (prior size: 0 KB)
+0001.418 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: size is now: 7.00 MB
+0001.419 (0) A useful amount of data was added after this amount of zip processing: 1.4 s (normalised: 1.4 s, rate: 18069.6 KB/s)
+0001.420 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.4281899929047, normalised_time=1.4167412295506, max_time=1.4195199012756, data points known=1, old_max_bytes=26214400, new_max_bytes=111019850)
+0001.426 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 700 files added (on-disk size: 7118.1 KB)
+0001.440 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 800 files added (on-disk size: 7118.1 KB)
+0001.450 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 900 files added (on-disk size: 7118.1 KB)
+0001.459 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 1000 files added (on-disk size: 7118.1 KB)
+0001.472 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 1100 files added (on-disk size: 7118.1 KB)
+0001.482 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 1200 files added (on-disk size: 7118.1 KB)
+0001.491 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 1300 files added (on-disk size: 7118.1 KB)
+0001.505 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 1400 files added (on-disk size: 7118.1 KB)
+0001.514 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 1500 files added (on-disk size: 7118.1 KB)
+0001.522 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 1600 files added (on-disk size: 7118.1 KB)
+0001.527 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (14.5 MB, 1986 files batched, 1001 (1658) added so far); re-opening (prior size: 7118.1 KB)
+0003.924 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: size is now: 11.60 MB
+0003.930 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 1700 files added (on-disk size: 11907.4 KB)
+0003.940 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 1800 files added (on-disk size: 11907.4 KB)
+0003.949 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: 1900 files added (on-disk size: 11907.4 KB)
+0007.612 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.tmp: size is now: 14.80 MB
+0007.636 (0) Creating zip file manifest (backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.list-temp.tmp)
+0007.649 (0) Successfully created zip file manifest (size: 164627)
+0007.866 (0) Created plugins zip (0) - 15119.1 KB in 7.8 s (1935.5 KB/s) (sha1: c3f335b8d4ea72e8c42b4d149b6f1a3aa47e3887, sha256: 767c805e8f86582bd865131e91220039427b65749bdef47eeba80b4a780e9b5a)
+0007.871 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.871 (0) No remote despatch: user chose no remote backup service
+0007.872 (0) Recording as successfully uploaded: backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip
+0007.873 (0) Deleting zip manifest (backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip.list.tmp)
+0007.875 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.875 (0) Number of backup sets in history: 0; groups (db): 1
+0007.876 (0) Number of backup sets in history: 0; groups (files): 1
+0007.876 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0007.879 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.898 (0) Total entities for the zip file: 51 directories, 488 files (0 skipped as non-modified), 28.4 MB
+0007.906 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.915 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.926 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.938 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0014.313 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-themes.zip.tmp: size is now: 26.70 MB
+0014.319 (0) Creating zip file manifest (backup_2024-04-26-1154_msconsultant_500a75d7d793-themes.zip.list-temp.tmp)
+0014.321 (0) Successfully created zip file manifest (size: 37016)
+0014.703 (0) Created themes zip (0) - 27304 KB in 6.8 s (4002 KB/s) (sha1: ac3672356678d4bd02ffbc1ce28ef32f487e4b67, sha256: 5bd732d835f92e6925bb83674fa9a27f6f61e0593697f008dd5b0f41414b2a43)
+0014.706 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0014.706 (0) No remote despatch: user chose no remote backup service
+0014.707 (0) Recording as successfully uploaded: backup_2024-04-26-1154_msconsultant_500a75d7d793-themes.zip
+0014.708 (0) Deleting zip manifest (backup_2024-04-26-1154_msconsultant_500a75d7d793-themes.zip.list.tmp)
+0014.709 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0014.710 (0) Number of backup sets in history: 0; groups (db): 1
+0014.710 (0) Number of backup sets in history: 0; groups (files): 1
+0014.711 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0014.714 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0014.715 (0) Looking for candidates to backup in: /home/u746845997/domains/exoticaitsolutions.com/public_html/msconsultant/wp-content/uploads
+0014.715 (0) finding files: 2024: adding to list (1)
+0014.716 (0) finding files: wpcf7_uploads: adding to list (2)
+0014.716 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0014.723 (0) Total entities for the zip file: 4 directories, 177 files (0 skipped as non-modified), 14.6 MB
+0014.732 (0) Zip: backup_2024-04-26-1154_msconsultant_500a75d7d793-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0017.973 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-uploads.zip.tmp: size is now: 14.60 MB
+0017.976 (0) Creating zip file manifest (backup_2024-04-26-1154_msconsultant_500a75d7d793-uploads.zip.list-temp.tmp)
+0017.977 (0) Successfully created zip file manifest (size: 8164)
+0018.197 (0) Created uploads zip (0) - 14942.4 KB in 3.5 s (4294.4 KB/s) (sha1: da686a567a306ddffef7c93afc0caea22c9624fe, sha256: b50432c3e6080f4aa8e9325f040d689fe46636915887763753dc0af232c5cd74)
+0018.199 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0018.200 (0) No remote despatch: user chose no remote backup service
+0018.200 (0) Recording as successfully uploaded: backup_2024-04-26-1154_msconsultant_500a75d7d793-uploads.zip
+0018.201 (0) Deleting zip manifest (backup_2024-04-26-1154_msconsultant_500a75d7d793-uploads.zip.list.tmp)
+0018.203 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0018.203 (0) Number of backup sets in history: 0; groups (db): 1
+0018.204 (0) Number of backup sets in history: 0; groups (files): 1
+0018.204 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0018.207 (0) No backup of mu-plugins: excluded by user's options
+0018.208 (0) Beginning backup of other directories found in the content directory (index: 0)
+0018.209 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0018.209 (0) Looking for candidates to backup in: /home/u746845997/domains/exoticaitsolutions.com/public_html/msconsultant/wp-content
+0018.210 (0) finding files: upgrade: skipping: excluded by options
+0018.210 (0) finding files: uploads: skipping: this is the uploads directory
+0018.210 (0) finding files: upgrade-temp-backup: adding to list (1)
+0018.211 (0) finding files: themes: skipping: this is the themes directory
+0018.211 (0) finding files: index.php: adding to list (2)
+0018.212 (0) finding files: updraft: skipping: this is the updraft directory
+0018.212 (0) finding files: plugins: skipping: this is the plugins directory
+0018.214 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0018.221 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-others.zip.tmp: size is now: 0.00 MB
+0018.223 (0) Creating zip file manifest (backup_2024-04-26-1154_msconsultant_500a75d7d793-others.zip.list-temp.tmp)
+0018.224 (0) Successfully created zip file manifest (size: 43)
+0018.227 (0) Created others zip (0) - 0.4 KB in 0 s (27.3 KB/s) (sha1: 2f8e679263648decb05c8d8290a0328eb6c37435, sha256: b80e47a6e04b06288569af8a8ca3b8c61945fcc3ffc7ee6676d5384b47083fdf)
+0018.229 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0018.229 (0) No remote despatch: user chose no remote backup service
+0018.229 (0) Recording as successfully uploaded: backup_2024-04-26-1154_msconsultant_500a75d7d793-others.zip
+0018.230 (0) Deleting zip manifest (backup_2024-04-26-1154_msconsultant_500a75d7d793-others.zip.list.tmp)
+0018.232 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0018.232 (0) Number of backup sets in history: 0; groups (db): 1
+0018.233 (0) Number of backup sets in history: 0; groups (files): 1
+0018.233 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0018.237 (0) Saving backup status to database (elements: 8)
+0018.238 (0) Beginning creation of database dump (WordPress DB)
+0018.239 (0) SQL compatibility mode is: NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0018.240 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0018.579 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1467 bytes total)
+0018.580 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0018.586 (0) Table wp_options: Total expected rows (via COUNT): 217
+0018.587 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.653 (0) Table wp_options: Rows added in this batch (next record: 1044): 213 (uncompressed bytes in this segment=1065434) in 0.07 seconds
+0018.656 (0) Table wp_options: finishing file(s) (2, 280.7 KB)
+0018.659 (0) Table wp_users: Total expected rows (via COUNT): 1
+0018.659 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.661 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1214) in 0.00 seconds
+0018.663 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0018.667 (0) Table wp_usermeta: Total expected rows (via COUNT): 33
+0018.667 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.669 (0) Table wp_usermeta: Rows added in this batch (next record: 33): 33 (uncompressed bytes in this segment=2900) in 0.00 seconds
+0018.672 (0) Table wp_usermeta: finishing file(s) (2, 1.4 KB)
+0018.675 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0018.677 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.00 seconds
+0018.679 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0018.682 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0018.683 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.684 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1885) in 0.00 seconds
+0018.687 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0018.689 (0) Table wp_links: Total expected rows (via COUNT): 0
+0018.691 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.00 seconds
+0018.693 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0018.699 (0) Table wp_postmeta: Total expected rows (approximate): 2753
+0018.720 (0) Table wp_postmeta: Rows added in this batch (next record: 2766): 2701 (uncompressed bytes in this segment=292039) in 0.03 seconds
+0018.723 (0) Table wp_postmeta: finishing file(s) (2, 29.6 KB)
+0018.727 (0) Table wp_posts: Total expected rows (via COUNT): 341
+0018.728 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.738 (0) Table wp_posts: Rows added in this batch (next record: 371): 341 (uncompressed bytes in this segment=162685) in 0.01 seconds
+0018.741 (0) Table wp_posts: finishing file(s) (2, 13.4 KB)
+0018.744 (0) Table wp_term_relationships: Total expected rows (approximate): 39
+0018.745 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 40 (uncompressed bytes in this segment=1242) in 0.00 seconds
+0018.748 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0018.751 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 11
+0018.752 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.753 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1259) in 0.00 seconds
+0018.756 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0018.760 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0018.761 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.00 seconds
+0018.764 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0018.767 (0) Table wp_terms: Total expected rows (via COUNT): 11
+0018.767 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0018.769 (0) Table wp_terms: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=1112) in 0.00 seconds
+0018.771 (0) Table wp_terms: finishing file(s) (2, 0.6 KB)
+0018.771 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/u746845997/domains/exoticaitsolutions.com/public_html/msconsultant/wp-content/updraft/backup_2024-04-26-1154_msconsultant_500a75d7d793-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0018.773 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_options.table.tmpr1045.gz (1/12/fopen): adding to final database dump
+0018.777 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0018.778 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0018.778 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0018.779 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_usermeta.table.tmpr34.gz (5/12/fopen): adding to final database dump
+0018.779 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0018.780 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0018.780 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0018.780 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0018.781 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0018.781 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0018.781 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0018.782 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_postmeta.table.tmpr2767.gz (13/12/fopen): adding to final database dump
+0018.782 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0018.783 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_posts.table.tmpr372.gz (15/12/fopen): adding to final database dump
+0018.783 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0018.784 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0018.784 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0018.784 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_term_taxonomy.table.tmpr12.gz (19/12/fopen): adding to final database dump
+0018.785 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0018.785 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0018.785 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0018.786 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_terms.table.tmpr12.gz (23/12/fopen): adding to final database dump
+0018.786 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0018.789 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db.gz: finished writing out complete database file (329.7 KB)
+0018.798 (0) Total database tables backed up: 12 (backup_2024-04-26-1154_msconsultant_500a75d7d793-db.gz, size: 337723, sha1: 1589044385e5bd2507c8a7606cbfa508a1f18ba0, sha256: 07ce8af8ddc1a9fc88edb37897af3ff2cbe748a89f87a5196fa0e22256237d59)
+0018.801 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-plugins.zip: plugins: This file has already been successfully uploaded
+0018.801 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-themes.zip: themes: This file has already been successfully uploaded
+0018.802 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-uploads.zip: uploads: This file has already been successfully uploaded
+0018.802 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-others.zip: others: This file has already been successfully uploaded
+0018.803 (0) backup_2024-04-26-1154_msconsultant_500a75d7d793-db.gz: db: This file has not yet been successfully uploaded: will queue
+0018.803 (0) Saving backup history. Total backup size: 56.3 MB
+0018.805 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0018.807 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0018.807 (0) No remote despatch: user chose no remote backup service
+0018.808 (0) Recording as successfully uploaded: backup_2024-04-26-1154_msconsultant_500a75d7d793-db.gz
+0018.810 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0018.810 (0) Number of backup sets in history: 1; groups (db): 1
+0018.811 (0) Examining (for databases) backup set with group_id=0, nonce=500a75d7d793, datestamp=1714132471 (Apr 26 2024 11:54:31)
+0018.811 (0) This backup set is the backup set just made, so will not be deleted.
+0018.811 (0) Number of backup sets in history: 1; groups (files): 1
+0018.812 (0) Examining (for files) backup set with nonce=500a75d7d793, datestamp=1714132471 (Apr 26 2024 11:54:31)
+0018.812 (0) This backup set is the backup set just made, so will not be deleted.
+0018.812 (0) This backup set is the backup set just made, so will not be deleted.
+0018.812 (0) This backup set is the backup set just made, so will not be deleted.
+0018.812 (0) This backup set is the backup set just made, so will not be deleted.
+0018.812 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0018.813 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0018.814 (0) Resume backup (500a75d7d793, 0): finish run
+0018.816 (0) Decremented the semaphore (fd) by 1
+0018.816 (0) Semaphore (fd) unlocked
+0018.817 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0018.819 (0) No email will/can be sent - the user has not configured an email address.
+0018.819 (0) The backup succeeded and is now complete
